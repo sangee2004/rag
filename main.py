@@ -85,14 +85,14 @@ def main():
             reader = SimpleDirectoryReader(
                 input_dir=d,
                 recursive=True,
-                exclude_hidden=True,
+                exclude_hidden=False,
             )
             documents.extend(reader.load_data(show_progress=True))
 
     if fs:
         reader = SimpleDirectoryReader(
             input_files=fs,
-            exclude_hidden=True,
+            exclude_hidden=False,
         )
         documents.extend(reader.load_data(show_progress=True))
 

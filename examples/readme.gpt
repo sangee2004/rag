@@ -1,0 +1,3 @@
+tools: rag-adhoc from ../tool.gpt
+
+What are the CLI options for the RAG tool as described in the file README.md?
