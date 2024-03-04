@@ -6,6 +6,7 @@ from llama_index.embeddings.openai import OpenAIEmbedding
 from llama_index.core import VectorStoreIndex, SimpleDirectoryReader
 from llama_index.vector_stores.chroma import ChromaVectorStore
 from llama_index.core import StorageContext, Document
+
 import chromadb
 
 from llama_index.llms.openai import OpenAI
