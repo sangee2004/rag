@@ -1,0 +1,13 @@
+tools: rag-adhoc-mytest-tool
+
+Answer prompts using provided documents.
+
+---
+name: rag-adhoc-mytest-tool
+
+description: I am a tool that accepts a list of documents and uses them for Retrieval Augmented Generation of answers to your prompt. It works well for adhoc or one-off queries, but doesn't offer persistence.
+
+args: prompt: (required) The text prompt based on which the GPT model will generate a response
+args: inputs: (optional) A comma-separated list of file or directory paths to consider for the RAG flow. Defaults to "."
+
+#!/usr/bin/env python3 ${GPTSCRIPT_TOOL_DIR}/main.py --prompt="${prompt}" --inputs="${inputs}"

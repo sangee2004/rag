@@ -1,0 +1,5 @@
+llama-index==0.10.15
+llama-index-readers-file==0.1.6
+llama-index-embeddings-huggingface==0.1.4
+chroma==0.2.0
+llama-index-embeddings-openai==0.1.6
