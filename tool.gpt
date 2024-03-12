@@ -10,4 +10,4 @@ description: I am a tool that accepts a list of documents and uses them for Retr
 args: prompt: (required) The text prompt based on which the GPT model will generate a response
 args: inputs: (optional) A comma-separated list of file or directory paths to consider for the RAG flow. Defaults to "."
 
-#!/usr/bin/env python3 ./main.py --prompt="${prompt}" --inputs="${inputs}"
+#!/usr/bin/env python3 ${GPTSCRIPT_TOOL_DIR}/main.py --prompt="${prompt}" --inputs="${inputs}"
